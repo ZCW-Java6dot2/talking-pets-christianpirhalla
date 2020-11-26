@@ -38,7 +38,7 @@ public class PigeonTest { // My third pet (my dad breeds pigeons)
         //Given
         String expectedName = "Paloma";
         Pigeon pigeon = new Pigeon("Dumb name");
-        Pigeon.setName(expectedName);
+        pigeon.setName(expectedName);
 
         //When
         String actualName = pigeon.getName();
